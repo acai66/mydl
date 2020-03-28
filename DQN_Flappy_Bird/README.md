@@ -1,5 +1,5 @@
 ## 基于DQN的游戏AI
-原始代码来自[]()，我将其移植到`tensorflow2`，感谢大佬的工作.
+原始代码来自[floodsung](https://github.com/floodsung/DRL-FlappyBird)，我将其移植到`tensorflow2`，在此感谢大佬的工作.
 
 ### 训练测试命令：
 ```
@@ -7,9 +7,7 @@ python FlappyBirdDQN.py
 ```
 
 ### 200w次训练效果：
-<video id="video" controls="" preload="none" poster="demo/demo.png">
-<source id="mp4" src="demo/dqnFlappyBird.mp4" type="video/mp4">
-</video>
+[![demo](demo/demo.png)](https://cdn.jsdelivr.net/gh/acai66/mydl@master/DQN_Flappy_Bird/demo/dqnFlappyBird.mp4)
 
 
 ### 当前测试依赖环境：
